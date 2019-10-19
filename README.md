@@ -13,15 +13,13 @@ Style: /images/content/pic2.jpg
 
 Dependencies:
 
-%matplotlib inline
-
-from PIL import Image
-import matplotlib.pyplot as plt
-import numpy as np
-
-import torch
-import torch.optim as optim
-from torchvision import transforms, models
+%matplotlib inline <br/>
+from PIL import Image <br/>
+import matplotlib.pyplot as plt <br/>
+import numpy as np <br/>
+import torch <br/>
+import torch.optim as optim <br/>
+from torchvision import transforms, models <br/>
 
 Default values:
 Number of steps to update target image: 2000
